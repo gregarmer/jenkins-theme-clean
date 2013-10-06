@@ -1,0 +1,83 @@
+body, p, table, tr, th, td, strong, h1, h2, h3, h4, h5, h6, blockquote, li {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 9pt;
+}
+
+.fixed-width {
+    font-family: Menlo, Monaco, Consolas, Inconsolata, Courier, monospace;
+}
+
+a, a:visited, a:active, a:hover, a:link {
+   text-decoration: none;
+}
+
+#top-panel {
+  background-color: rgb(220, 220, 220);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(220, 220, 220)), to(rgb(220, 220, 220)));
+  background-image: -webkit-linear-gradient(rgb(249, 249, 249), rgb(220, 220, 220));
+  background-image: -moz-linear-gradient(rgb(249, 249, 249), rgb(220, 220, 220));
+  background-image: -o-linear-gradient(rgb(249, 249, 249), rgb(220, 220, 220));
+  background-image: linear-gradient(rgb(249, 249, 249), rgb(220, 220, 220));
+  background-repeat: repeat-x;
+  border-bottom-color: rgb(200, 200, 200);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  height: 45px;
+}
+
+#top-panel img:first-child {
+  margin-top: 8px;
+  display: none;
+}
+
+#heading {
+  font-family: Menlo, Monaco, Consolas, Inconsolata, Courier, monospace;
+  color: #777777;
+  font-size: 18pt;
+  padding: 10px;
+  display: block;
+}
+
+#search-box, #login-field {
+  margin-top: 0px;
+  height: 30px;
+}
+
+#login-field {
+  height: 52px !important
+}
+
+#login-field > span > span > a, #login-field > span > span, #login-field > span, #login-field > span > a {
+  color: #777777;
+}
+
+#main-table {
+   background: none;
+   background-image: none !important;
+   background-position: bottom left;
+}
+
+#main-panel > pre,
+#out pre, pre {
+    background-color: #110F13;
+    color: #DFDFDF;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 9pt;
+}
+
+pre > a, 
+pre > a:visited,
+pre > a:active,
+pre > a:hover,
+pre > a:link {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.yui-skin-sam .yui-button button {
+    line-height: 2em;
+    font-size: 10pt;
+    min-height: 2em;
+    padding: 0 10px;
+}
